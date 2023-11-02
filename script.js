@@ -1,3 +1,4 @@
+
 function fibonacci(num) {
 // your code here
 	if(num > 0)
@@ -22,4 +23,4 @@ function fibonacci(num) {
 let num = parseFloat(prompt("Enter a Positive Number"));
 alert(fibonacci(num));
     
-          
+module.exports = fibonacci;
